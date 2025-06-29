@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "localhost:5173", "dianedouglas.github.io/reactsynth"
+    origins "localhost:5173", "https://dianedouglas.github.io"
 
     resource "*",
       headers: :any,
