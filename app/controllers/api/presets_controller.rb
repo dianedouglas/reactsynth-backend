@@ -46,6 +46,6 @@ class Api::PresetsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def preset_params
-      params.expect(preset: [ :title, :ripple_speed, :ripple_sustain, :ripple_speed, :octave, :filter_frequency, :filter_q ])
+      params.expect(preset: [ :title, :ripple_speed, :ripple_sustain, :amount_of_rain, :octave, :filter_frequency, :filter_q ])
     end
 end
