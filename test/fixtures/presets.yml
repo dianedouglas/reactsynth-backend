@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  ripple_speed: 1.5
+  ripple_sustain: 1.5
+  ripple_speed: 1.5
+  octave: 1
+  filter_frequency: 1.5
+  filter_q: 1.5
+
+two:
+  title: MyString
+  ripple_speed: 1.5
+  ripple_sustain: 1.5
+  ripple_speed: 1.5
+  octave: 1
+  filter_frequency: 1.5
+  filter_q: 1.5
